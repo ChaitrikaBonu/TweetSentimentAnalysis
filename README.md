@@ -1,4 +1,3 @@
-# TweetSentimentAnalysis
 # Twitter Sentiment Analysis using NLP
 
 ## Overview
