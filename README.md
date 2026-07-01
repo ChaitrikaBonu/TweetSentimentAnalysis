@@ -94,7 +94,7 @@ streamlit run app.py
 
 Open:
 
-http://localhost:8501
+`http://localhost:8501`
 
 ---
 
@@ -124,9 +124,27 @@ Expected Accuracy:
 
 * Automatic tweet preprocessing
 * Sentiment prediction in real time
+* CSV batch sentiment prediction for tweet exports
 * User-friendly Streamlit interface
 * Machine Learning based classification
 * Easy deployment and scalability
+
+---
+
+## CSV Batch Prediction
+
+The Streamlit app can analyze a CSV file of saved tweets. Upload a CSV with one
+of these text columns:
+
+* `text`
+* `tweet`
+* `tweet_text`
+* `full_text`
+* `content`
+* `body`
+
+The app adds a `predicted_sentiment` column and lets you download the annotated
+CSV.
 
 ---
 
